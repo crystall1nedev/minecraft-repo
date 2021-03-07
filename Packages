@@ -1,4 +1,19 @@
 Package: minecraft-launcher
+Version: 2.2.1441
+Architecture: amd64
+Maintainer: Petr Mrázek <petr@mojang.com>
+Pre-Depends: dpkg (>= 1.14.0), wget | curl, ca-certificates
+Depends: default-jre, libasound2 (>= 1.0.23), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.11), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.1.4), libexpat1 (>= 1.95.8), libfontconfig1 (>= 2.8.0), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgtk2.0-0, libgtk-3-0 (>= 3.18.9), libnspr4 (>= 1.8.0.10), libnss3 (>= 3.17.2), libpango1.0-0 (>= 1.14.0) | libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.8.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.3), libxrender1, libxss1, libxtst6, libx11-xcb1, libxcb1, libbz2-1.0, lsb-base (>= 4.1), xdg-utils (>= 1.0.2), wget, libcurl3 | libcurl4, libuuid1
+Filename: ./debs/Minecraft-2.2.1441.deb
+Size: 57747972
+MD5sum: 32f5009d1bbf177e7e98f7d96238ba6a
+SHA1: ac5c816e2e415d05a6bd833ec2547ecd7ffb6db6
+SHA256: cf421e38ff8faa19e0bd7608c179afc0b8e6d6f9206262e696761ecd024fd5b4
+Homepage: https://minecraft.net/
+Description: Official Minecraft Launcher
+Copyright: All rights reserved
+
+Package: minecraft-launcher
 Version: 887
 Architecture: amd64
 Maintainer: Petr Mrázek <petr@mojang.com>
