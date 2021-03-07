@@ -47,4 +47,4 @@ This may present issues with updating from something like 888 -> 2.2.xxxx, but t
   
 ## Licensing
 
-The code I wrote is licensed under GNU GPL-3.0. The actual .deb files are subject to Mojang's licenses.
+The code I wrote is licensed under GNU GPL-3.0. The actual .deb files are subject to Mojang's licenses, and the Terms of Use technically says that redistributing Minecraft is not allowed. Maybe if they did something like this, I wouldn't have to, so I honestly don't care.
