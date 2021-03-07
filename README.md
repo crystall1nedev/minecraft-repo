@@ -4,6 +4,8 @@
 
 This repository is an unofficial APT server for Minecraft: Java Edition.
 
+![](assets/sudo-apt-upgrade.jpeg)
+
 ## Features
 
 - Update Minecraft using APT!
