@@ -9,5 +9,6 @@ jobs:
     name: Check for new Launcher versions
     runs-on: ubuntu-20.04
     steps:
+    - uses: actions/checkout@v2
     - name: Running updatemc.sh
-      run: ls -lah
+      run: ./updatemc.sh
