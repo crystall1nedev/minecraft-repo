@@ -1,0 +1,15 @@
+Package: minecraft-launcher
+Version: 887
+Architecture: amd64
+Maintainer: Petr Mrázek <petr@mojang.com>
+Pre-Depends: dpkg (>= 1.14.0), wget | curl, ca-certificates
+Depends: default-jre, libasound2 (>= 1.0.23), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.16), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libfontconfig1 (>= 2.8.0), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.18.9), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpango1.0-0 (>= 1.14.0) | libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.8.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.3), libxrender1, libxss1, libxtst6, libx11-xcb1, libxcb-dri3-0, libxcb1 (>= 1.9.2), libbz2-1.0, lsb-base (>= 4.1), xdg-utils (>= 1.0.2), wget, libcurl3 | libcurl4, libuuid1
+Filename: ./debs/Minecraft-latest.deb
+Size: 893146
+MD5sum: 81301325e1edd5a941f6e0d75779b65a
+SHA1: af3364677dbb36772488500b3cf256c5f2991fcc
+SHA256: c03509b48ba1cf57a6de370ec64d705ea333d410a7873797559385c0615bf0af
+Homepage: https://minecraft.net/
+Description: Official Minecraft Launcher
+Copyright: All rights reserved
+
