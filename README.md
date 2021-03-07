@@ -6,6 +6,10 @@ This repository is an unofficial APT server for Minecraft: Java Edition.
 
 ![](assets/sudo-apt-upgrade.jpeg)
 
+## Beta
+
+This APT repository is new and isn't completely finished yet. There could be some work done to make this repository more organized and clean, and possibly produce beta versions of the Launcher.
+
 ## Features
 
 - Update Minecraft using APT!
@@ -27,10 +31,17 @@ If you don't have it: `sudo apt install minecraft-launcher`
 If you already have it: `sudo apt upgrade minecraft-launcher`
 
 Specifying a version is easy too:  
-`sudo apt install minecraft-launcher:<version>`
+`sudo apt install minecraft-launcher=<version>`
 
-A list of versions can easily be found in the `Packages file on this repository.
+A list of versions can easily be found in the `Packages file on this repository.`
 
 ## Security
 
 None of the .deb files are modified when they get to this APT repository. All of the debs come straight from launcher.mojang.com, which is the link that you are sent to when you hit the "Download" button for the .deb file on the website. This is simply just an easier way to download the launcher without having to go to the website every single time.
+
+## Versioning
+
+The Minecraft installer isn't optimized for an APT repository to deliver it. Because of this, the version numbers are going to be _way_ different, with one being a number like 2.2.5149 and another being like 888. This is because of how Mojang codes three different parts of the Launcher, with the Launcher itself, the Bootstrap, and the UI. If you have issues updating or installing, use the `minecraft-launcher=<version>`.
+
+This may present issues with updating from something like 888 -> 2.2.xxxx, but this has not been tested and will be worked on with the next update that makes the version number go back to 2.2.xxxx.
+  
