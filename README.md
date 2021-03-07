@@ -45,3 +45,6 @@ The Minecraft installer isn't optimized for an APT repository to deliver it. Bec
 
 This may present issues with updating from something like 888 -> 2.2.xxxx, but this has not been tested and will be worked on with the next update that makes the version number go back to 2.2.xxxx.
   
+## Licensing
+
+The code I wrote is licensed under GNU GPL-3.0. The actual .deb files are subject to Mojang's licenses.
