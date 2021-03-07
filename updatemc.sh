@@ -1,7 +1,5 @@
 #! /bin/bash
 
-cd /home/doregon/git/minecraft-repo
-
 # This file is simply how the APT repository can automatically grab the latest
 # version of Minecraft.deb from the official website. This is also how you know
 # that you can trust this source, free of malware and corrupted files :)
