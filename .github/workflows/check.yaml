@@ -1,9 +1,10 @@
 name: CI
 on:
-  schedule:
-    - cron: "*/15 * * * *"
   push:
-    - main
+    branches:
+      - *
+  schedule:
+    - cron: '*/15 * * * *'
 
 jobs:
   linux:
