@@ -20,11 +20,11 @@ To add this APT repository to your sources and automatically update your package
 
 `curl -fsSL 'https://raw.githubusercontent.com/Doregon/minecraft-repo/main/install.sh' | bash`
 
-Once the script completes, you can run 
-If you don't have it: `sudo apt install minecraft-launcher`
+Once the script completes, you can run   
+If you don't have it: `sudo apt install minecraft-launcher`  
 If you already have it: `sudo apt upgrade minecraft-launcher`
 
-Specifying a version is easy too: 
+Specifying a version is easy too:  
 `sudo apt install minecraft-launcher:<version>`
 
 A list of versions can easily be found in the `Packages file on this repository.
