@@ -1,0 +1,14 @@
+name: CI
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  push:
+    - main
+
+jobs:
+  linux:
+    name: Check for new Launcher versions
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Running updatemc.sh
+      run: /bin/bash ./updatemc.sh
