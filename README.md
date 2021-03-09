@@ -2,6 +2,8 @@
 
 *Maybe Microsoft will take a hint!*
 
+**NOTICE:** This APT repository is no longer needed as Minecraft can now automatically update on Linux platforms. It will no longer be available for use.
+
 This repository is an unofficial APT server for Minecraft: Java Edition.
 
 ![](assets/sudo-apt-upgrade.jpeg)
