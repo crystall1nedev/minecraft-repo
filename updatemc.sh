@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# Commented out for GitHub workflow. Only used locally if required.
+# cd /home/doregon/git/minecraft-repo
+
 # This file is simply how the APT repository can automatically grab the latest
 # version of Minecraft.deb from the official website. This is also how you know
 # that you can trust this source, free of malware and corrupted files :)
@@ -37,10 +40,10 @@ then
    gpg --default-key "tunnic.adam@gmail.com" -abs -o - Release > Release.gpg
    gpg --default-key "tunnic.adam@gmail.com" --clearsign -o - Release > InRelease
 
-   # Commit & push
-   git add -A
-   git commit -m "Update launcher to $RVERSION"
-   git push
+   # Commit & push. Only used locally is GitHb Actions stops working.
+   # git add -A
+   # git commit -m "Update launcher to $RVERSION"
+   # git push
   
    echo "Even cooler beans!"
 else
