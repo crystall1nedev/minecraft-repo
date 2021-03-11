@@ -2,7 +2,7 @@
 
 *Maybe Microsoft will take a hint!*
 
-**NOTICE:** This APT repository is no longer needed as Minecraft can now automatically update on Linux platforms. It will no longer be available for use.
+**NOTICE:** This APT repository may no longer be needed as issue #1 reports that Linux systems have gotten automatic update utilities. I have only seen this on Arch (and it already happened either way) so tests are being done to make sure that Debian based systems actually have an auto update mechanism. If that is the case, **this APT repository will be closed.**.
 
 This repository is an unofficial APT server for Minecraft: Java Edition.
 
@@ -35,7 +35,7 @@ If you already have it: `sudo apt upgrade minecraft-launcher`
 Specifying a version is easy too:  
 `sudo apt install minecraft-launcher=<version>`
 
-A list of versions can easily be found in the `Packages file on this repository.`
+A list of versions can easily be found in the `Packages` file on this repository.
 
 ## Security
 
